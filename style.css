@@ -90,11 +90,11 @@ footer{
 }
 .yomy li{
     position: absolute;
-    top: 100px;
-    left: -1050px;
+    top: 120px;
+    left: -920px;
 }
 .yomy h2{
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 .yomy li:hover{
@@ -105,6 +105,7 @@ footer{
 .yomy li:hover h2{
     font-size: 50px;
 }
+
 /*se elimina este contenido del main main para poder solucionar u tema en cascada de stilo abajo
 main{
     width: 940px;
@@ -394,7 +395,7 @@ en google inspeciconar se puede verificar
    nav{
     position: static;
    }
-    .caja,.principal,.mapa-contenido, .contenido-diferenciales,.video,.yomy{
+    .caja,.principal,.mapa-contenido, .contenido-diferenciales,.video,.yomy li{
         width: auto;
     }
     .lista-diferenciales{
